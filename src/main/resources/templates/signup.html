@@ -50,6 +50,9 @@
                 </div>
             </div>
         </div>
+        <div class="text-center text-white-50 small mt-4">
+            <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 (E) a hh:mm:ss') + '  │  학번: 2171095  │  성명: 신한석'}"></p>
+        </div>
     </div>
 </div>
 </body>

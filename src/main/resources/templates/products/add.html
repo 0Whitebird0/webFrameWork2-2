@@ -92,6 +92,9 @@
     </div>
 </div>
 
+<div class="container text-center text-muted small mt-4 mb-3">
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 (E) a hh:mm:ss') + '  │  학번: 2171095  │  성명: 신한석'}"></p>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
